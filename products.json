@@ -1,0 +1,136 @@
+{
+    "products": {
+        "hoodie1": [
+            {
+                "name": "Bluza zimowa",
+                "size": {
+                    "S": {
+                        "itemsLeft": 12
+                    },
+                    "M": {
+                        "itemsLeft": 4
+                    },
+                    "L": {
+                        "itemsLeft": 2
+                    },
+                    "XL": {
+                        "itemsLeft": 7
+                    }
+                },
+                "image": "hoodie.png",
+                "price": 89.99,
+                "desc": "Świetna bluza na zimne dni"
+            }
+        ],
+        "hoodie2": [
+            {
+                "name": "Taniabluza",
+                "size": {
+                    "S": {
+                        "itemsLeft": 8
+                    },
+                    "M": {
+                        "itemsLeft": 16
+                    },
+                    "L": {
+                        "itemsLeft": 11
+                    },
+                    "XL": {
+                        "itemsLeft": 2
+                    }
+                },
+                "image": "hoodie.png",
+                "price": 56.99,
+                "desc": "Niesamowita bluza za jedyne 56.99!"
+            }
+        ],
+        "hoodie3": [
+            {
+                "name": "Color-hoodie",
+                "size": {
+                    "S": {
+                        "itemsLeft": 9
+                    },
+                    "M": {
+                        "itemsLeft": 0
+                    },
+                    "L": {
+                        "itemsLeft": 4
+                    },
+                    "XL": {
+                        "itemsLeft": 2
+                    }
+                },
+                "image": "hoodie.png",
+                "price": 59.99,
+                "desc": "Kolorowa bluza z czymś"
+            }
+        ],
+        "hoodie4": [
+            {
+                "name": "Skórzana bluza",
+                "size": {
+                    "S": {
+                        "itemsLeft": 1
+                    },
+                    "M": {
+                        "itemsLeft": 18
+                    },
+                    "L": {
+                        "itemsLeft": 10
+                    },
+                    "XL": {
+                        "itemsLeft": 7
+                    }
+                },
+                "image": "hoodie.png",
+                "price": 40.99,
+                "desc": "Skórzana bluza z nadrukiem ryby"
+            }
+        ],
+        "hoodie5": [
+            {
+                "name": "Bluza wędrowcy",
+                "size": {
+                    "S": {
+                        "itemsLeft": 6
+                    },
+                    "M": {
+                        "itemsLeft": 3
+                    },
+                    "L": {
+                        "itemsLeft": 7
+                    },
+                    "XL": {
+                        "itemsLeft": 2
+                    }
+                },
+                "image": "hoodie.png",
+                "price": 119.99,
+                "desc": "Świetna bluza gotowa do wędrówek"
+            }
+        ],
+        "hoodie6": [
+            {
+                "name": "Bluza słaba",
+                "size": {
+                    "S": {
+                        "itemsLeft": 1
+                    },
+                    "M": {
+                        "itemsLeft": 0
+                    },
+                    "L": {
+                        "itemsLeft": 19
+                    },
+                    "XL": {
+                        "itemsLeft": 8
+                    }
+                },
+                "image": "hoodie.png",
+                "price": 99.99,
+                "desc": "Słaba bluza na zimne dni"
+            }
+        ]
+    }
+}
