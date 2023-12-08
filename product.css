@@ -4,9 +4,13 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 #product-details {
   width: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,25 +18,19 @@ body {
 }
 
 .left-section {
-  flex: 1;
   width: 40%;
   height: 100%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
-/* .left-section img {
-  width: 100%;
-  height: 100%; 
-  object-fit: cover;
-} */
-
 .right-section {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   width: 40%;
   height: 100%;
   display: flex;
-  flex: 1;
   align-items: center;
   flex-direction: column;
 }
@@ -56,14 +54,18 @@ body {
 }
 
 .last-items {
-  padding: 10px;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: red;
   color: white;
   border-radius: 10px;
 }
 
 .hidden {
-  display: none;
+  visibility: hidden;
 }
 
 .details-card {
@@ -96,7 +98,11 @@ body {
     height: auto;
   }
 
-  .left-section,
+  .left-section
+  {
+    width: 90vh;
+    height: 500px;
+  }
   .right-section {
     width: 100%;
   }

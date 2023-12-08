@@ -55,7 +55,6 @@ fetchData(apiUrl)
       sizeFormCon.classList.add("details-size-form");
 
       let itemsLeftBox = document.createElement("div");
-
       let lastItemsBox = document.createElement("p");
       lastItemsBox.classList.add("last-items");
       lastItemsBox.classList.add("hidden");
@@ -78,6 +77,8 @@ fetchData(apiUrl)
         sizeInputButton.type = "radio";
         sizeInputButton.name = "size";
         sizeInputButton.value = x;
+
+        itemsLeftLabel.textContent ="Na stanie: ";
 
         sizeInputButton.addEventListener("change", () => {
           switch (sizeInputButton.value) {
